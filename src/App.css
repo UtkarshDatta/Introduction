@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color:antiquewhite;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+section li {
+  margin: 0 20px 20px 0;
+  flex-basis: calc(33.33% - 20px);
+}
+
+section li img {
+  width: 50%;
+  cursor: pointer;
+  flex: auto;
+  justify-content: center;
+}
+
+section li h3 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+  color: blueviolet;
+}
+
+section li p {
+  font-size: 16px;
+  margin: 0;
+  color:green;
+  font-weight: bold;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+section label {
+  font-size: 16px;
+  margin: 20px 0 5px;
+}
+
+section input,
+section textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+section button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+section button[type="submit"]:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
